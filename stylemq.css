@@ -1,0 +1,41 @@
+@media (max-width: 768px) { 
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .hero-header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    background: linear-gradient(
+      to top,
+      hsl(241, 81%, 54%),
+      hsl(252, 100%, 67%)
+    );
+    padding: 40px 60px;
+    margin-right: 0;
+    margin-bottom: -30px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .summary-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 70px 40px 36px 40px;
+  border-radius: 20px;
+}
+}
